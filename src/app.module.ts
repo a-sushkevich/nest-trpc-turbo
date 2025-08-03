@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
+import { TrpcModule } from './trpc/trpc.module';
 
 @Module({
-  imports: [],
+  imports: [TrpcModule],
   controllers: [],
   providers: [],
 })
