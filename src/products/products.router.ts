@@ -13,7 +13,7 @@ export class ProductsRouter {
   }
 
   @Query({ output: z.array(productsSchema) })
-  getAllProducts(@Input('id') id: string) {
+  getAllProducts() {
     return this.productsService.getAllProducts();
   }
 
