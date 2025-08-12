@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This repo for learning purposes only. Shows the integration of Nest and TRPC.
 
 ## Project setup
 
